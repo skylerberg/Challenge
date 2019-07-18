@@ -38,6 +38,7 @@ namespace Challenge
                 return false;
             }
 
+            // Checking if a number is a possible US number is a fast and reasonably accurate way to determine validity
             return phoneNumberUtil.IsPossibleNumber(parsedNumber);
         }
     }
